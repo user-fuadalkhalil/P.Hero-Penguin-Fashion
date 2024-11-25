@@ -28,7 +28,7 @@
   <body>
     <header class="bg-[#FFFBF0] px-4 md:px-32 py-20">
       <!-- nav section -->
-      <nav>
+      <nav class="">
         <div class="flex items-center justify-between mb-11">
           <div class="flex items-center gap-4">
             <img class="w-10" src="./resources/images/logo.png" alt="" />
@@ -37,7 +37,7 @@
               <span class="text-[#A4BC46]">FASHION</span>
             </h1>
           </div>
-          <div class="flex gap-9 text-[#3C3C3C] font-medium">
+          <div class="flex gap-9 text-[#3C3C3C] font-medium hidden lg:flex">
             <a href="#">Home</a>
             <a href="#">Product</a>
             <a href="#">About Us</a>
@@ -310,7 +310,9 @@
       </section>
       <!-- shopping section -->
       <section class="px-4">
-        <div class="lg:my-28 flex flex-col gap-9 justify-between items-end">
+        <div
+          class="lg:my-28 flex flex-col lg:flex-row gap-9 justify-between items-center"
+        >
           <div class="flex flex-col gap-7">
             <div>
               <div class="flex max-w-lg p-7 gap-8 shadow-md rounded-3xl">
